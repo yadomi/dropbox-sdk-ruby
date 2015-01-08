@@ -50,3 +50,12 @@ Running the Examples
 There are example programs included in the tarball.  Before you can run an
 example, you need to edit the ".rb" file and put your Dropbox API app key and
 secret in the "APP_KEY" and "APP_SECRET" constants.
+
+----------------------------------
+Running the Tests
+
+# gem install bundler
+
+# bundle install
+# cd test
+# DROPBOX_RUBY_SDK_ACCESS_TOKEN=<oauth2-access-token> bundle exec ruby sdk_test.rb

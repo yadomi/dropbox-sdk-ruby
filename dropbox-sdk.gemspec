@@ -13,6 +13,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency "json"
 
+  s.add_development_dependency "minitest", "~> 4.3.2"
+
   s.homepage = "http://www.dropbox.com/developers/"
   s.summary = "Dropbox REST API Client."
   s.description = <<-EOF
