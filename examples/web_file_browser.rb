@@ -6,13 +6,13 @@
 #
 # To set up:
 # 1. Create a Dropbox App key and secret to use the API. https://www.dropbox.com/developers
-# 2. Add http://localhost:4567/dropbox-auth-finish as a Redirect URI for your Dropbox app.
+# 2. Add http://localhost:5000/dropbox-auth-finish as a Redirect URI for your Dropbox app.
 # 3. Copy your App key and App secret into APP_KEY and APP_SECRET below.
 #
 # To run:
 # 1. Install Sinatra  $ gem install sinatra
 # 2. Launch server    $ ruby web_file_browser.rb
-# 3. Browse to        http://localhost:4567/
+# 3. Browse to        http://localhost:5000/
 # -------------------------------------------------------------------
 
 require 'rubygems'
